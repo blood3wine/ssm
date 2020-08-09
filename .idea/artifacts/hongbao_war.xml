@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hongbao:war">
+    <output-path>$PROJECT_DIR$/hongbao/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hongbao</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hongbao.war">
+      <element id="artifact" artifact-name="hongbao:war exploded" />
+    </root>
+  </artifact>
+</component>
